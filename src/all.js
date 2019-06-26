@@ -204,6 +204,9 @@ class AllBot {
 }
 
 module.exports = robot => {
+  console.log(room_id);
+  console.log(bot_id);
+  console.log(token);
   const bot = new AllBot(robot);
   bot.run();
 };
